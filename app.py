@@ -113,7 +113,7 @@ class VideoDownloaderApp:
                 'format': f'bestvideo[height<={selected_format.rstrip("p")}]+bestaudio[ext=m4a]/best[height<={selected_format.rstrip("p")}]'
                 'outtmpl': os.path.join(save_path, '%(title)s.%(ext)s'),
                 'progress_hooks': [self.yt_dlp_progress],
-                'noplaylist': Truel
+                'noplaylist': True
             }
 
             # Specific handling for audio only
