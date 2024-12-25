@@ -110,7 +110,7 @@ class VideoDownloaderApp:
         try:
             # Configure yt-dlp options
             ydl_opts = {
-                'format': f'bestvideo[height<={selected_format.rstrip("p")}]+bestaudio[ext=m4a]/best[height<={selected_format.rstrip("p")}]'
+                'format': f'bestvideo[height<={selected_format.rstrip("p")}]+bestaudio[ext=m4a]/best[height<={selected_format.rstrip("p")}]',
                 'outtmpl': os.path.join(save_path, '%(title)s.%(ext)s'),
                 'progress_hooks': [self.yt_dlp_progress],
                 'noplaylist': True
