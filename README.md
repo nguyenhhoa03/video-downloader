@@ -1,5 +1,3 @@
-Dưới đây là file **README.md** cho ứng dụng **Video Downloader** với một hình ảnh **screenshot** đầy đủ của ứng dụng:
-
 # Video Downloader
 
 
@@ -86,15 +84,3 @@ Here’s a preview of the **Video Downloader** application:
 
 ---
 
-## Acknowledgements
-
-- **yt-dlp**: for video downloading functionality.
-- **CustomTkinter**: for providing the sleek, cross-platform user interface.
-
-```
-
-### Lưu ý:
-- **App Screenshot**: Bạn cần thay thế `https://example.com/screenshot.jpg` bằng liên kết chính thức của hình ảnh chụp ứng dụng thực tế mà bạn muốn hiển thị. Nếu hình ảnh được lưu trữ trực tuyến, hãy sử dụng đường dẫn URL chính thức.
-- **Các bước hướng dẫn cài đặt** đã được thêm vào chi tiết, bao gồm cài đặt phụ thuộc và cách chạy ứng dụng.
-
-Sau khi thêm đường dẫn hình ảnh vào phần **Screenshot**, README sẽ trở nên trực quan hơn và giúp người dùng dễ dàng hiểu cách sử dụng ứng dụng.
