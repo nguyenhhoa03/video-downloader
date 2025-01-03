@@ -79,7 +79,11 @@ For questions or issues, please open an issue on the GitHub repository.
 
 Here’s a preview of the **Video Downloader** application:
 
+
 ![App Screenshot](https://raw.githubusercontent.com/nguyenhhoa03/video-downloader/refs/heads/main/screenshot.png)  <!-- Chèn URL hình ảnh full screenshot ứng dụng -->
 
 ---
 
+## Support
+
+Supported site: Please visit [yt-dlp supported site](https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md)
