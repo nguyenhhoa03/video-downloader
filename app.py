@@ -112,6 +112,7 @@ class VideoDownloaderApp:
             ydl_opts = {
                 'format': f'bestvideo[height<={selected_format.rstrip("p")}]+bestaudio[ext=m4a]/best[height<={selected_format.rstrip("p")}]',
                 'outtmpl': os.path.join(save_path, '%(title)s.%(ext)s'),
+                'merge_output_format': 'mp4',  # Ép định dạng đầu ra là mp4
                 'progress_hooks': [self.yt_dlp_progress],
                 'noplaylist': True
             }
