@@ -125,3 +125,4 @@ if __name__ == "__main__":
     root = ctk.CTk()
     app = VideoDownloaderApp(root)
     root.mainloop()
+# More infomation please visit https://github.com/nguyenhhoa03/video-downloader
