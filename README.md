@@ -1,7 +1,7 @@
 # Video Downloader
 
 
-**Video Downloader** is a powerful tool that allows you to download videos from supported websites such as YouTube. It provides a simple, user-friendly interface and supports multiple video quality options. This application is compatible with multiple operating systems and uses **CustomTkinter** to deliver a visually appealing experience.
+**Video Downloader** is a powerful tool that allows you to download videos from supported websites such as YouTube. It provides a simple, user-friendly interface and supports multiple video quality options. This application is compatible with multiple operating systems, powered by **yt-dlp** and uses **CustomTkinter** to deliver a visually appealing experience.
 
 ## Features
 
@@ -30,7 +30,7 @@ pip install yt-dlp customtkinter
 Clone the repository using the following command:
 
 ```bash
-git clone https://github.com/<your-username>/video-downloader.git
+git clone https://github.com/nguyenhhoa03/video-downloader.git
 ```
 
 ### 4. Run the Application
@@ -74,7 +74,6 @@ Full details can be found [here](https://www.gnu.org/licenses/gpl-3.0.html).
 
 For questions or issues, please open an issue on the GitHub repository.
 
----
 
 ## Screenshot
 
