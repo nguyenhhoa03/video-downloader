@@ -2,7 +2,6 @@ Dưới đây là file **README.md** cho ứng dụng **Video Downloader** với
 
 # Video Downloader
 
-![Screenshot](https://raw.githubusercontent.com/nguyenhhoa03/video-downloader/refs/heads/main/screenshot.png)
 
 **Video Downloader** is a powerful tool that allows you to download videos from supported websites such as YouTube. It provides a simple, user-friendly interface and supports multiple video quality options. This application is compatible with multiple operating systems and uses **CustomTkinter** to deliver a visually appealing experience.
 
@@ -83,7 +82,7 @@ For questions or issues, please open an issue on the GitHub repository.
 
 Here’s a preview of the **Video Downloader** application:
 
-![App Screenshot](https://example.com/screenshot.jpg)  <!-- Chèn URL hình ảnh full screenshot ứng dụng -->
+![App Screenshot](https://raw.githubusercontent.com/nguyenhhoa03/video-downloader/refs/heads/main/screenshot.png)  <!-- Chèn URL hình ảnh full screenshot ứng dụng -->
 
 ---
 
