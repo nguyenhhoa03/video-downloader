@@ -1,88 +1,64 @@
-# Video Downloader (Under Development)
+Video Downloader
+The Video Downloader application is a powerful tool that allows you to download videos from supported websites, such as YouTube, with multiple video quality options. The app supports multiple operating systems and utilizes CustomTkinter for the user interface, providing a visually appealing and easy-to-use experience.
 
-**Video Downloader** is an application designed to help users easily download videos from websites supported by **yt-dlp** on **Linux** operating systems. The application is built using Python and employs the **GTK** library for its graphical user interface.
+Features
+Multi-platform support: Works on Linux, Windows, macOS, and other operating systems.
+Video quality selection: Choose from multiple video qualities, from 720p up to 4K (depending on website support).
+User-friendly interface: Simple and intuitive GUI to quickly input URLs and download videos.
+Auto-save to your preferred folder: Select your download location within the GUI.
+Installation
+1. Install Requirements
+Before running the application, you need to install some dependencies:
 
-Currently, the app is under development and supports downloading videos via **yt-dlp**. The available source code includes **app.py** and **ui.glade**, with plans to add a browser extension in the future.
+Python 3.x (Python 3.6 or higher).
+pip - Python package installer.
+To install the required libraries:
 
-The app only supports **Linux** at the moment, but other operating systems will be supported in the future.
+bash
+Copy code
+pip install yt-dlp customtkinter
+2. Clone the Repository
+Clone the repository from GitHub:
 
-## Features
+bash
+Copy code
+git clone https://github.com/<your-username>/video-downloader.git
+3. Run the Application
+After cloning the repository and installing the dependencies, you can run the application by executing:
 
-- **Download videos from yt-dlp-supported websites:** The app allows downloading videos from platforms like YouTube, Vimeo, and more.  
-- **Select video quality:** Users can choose the quality of the video before downloading.  
-- **Choose download location:** Users can specify the folder where downloaded videos will be saved.  
-- **GTK-based UI:** Simple and user-friendly interface designed for Linux environments.  
+bash
+Copy code
+python app.py
+The application will open a GUI window where you can input URLs and start downloading videos.
 
-## Installation
+How to Use
+Enter the Video URL: Simply input the video URL into the text box on the interface.
+Choose Video Quality: Select the preferred video quality from the available options.
+Select Download Folder: Specify the folder where the video will be saved.
+Click "Download": After making your selections, click the "Download" button to start the download.
+The application will show the download progress and notify you once the download is complete.
 
-### 1. Install yt-dlp
+Supported Operating Systems
+Windows
+Linux
+macOS
+The app is optimized for use on popular operating systems, utilizing CustomTkinter for cross-platform GUI compatibility.
 
-Before running the application, you need to install **yt-dlp**, as it is not pre-installed on Linux:
+Configuration and Customization
+You can modify the source code or extend the features, such as:
 
-```bash
-pip install yt-dlp
-```
+Adding support for new video-sharing websites.
+Updating available video quality options.
+Integrating with additional video tools.
+Contact
+If you encounter any issues or have questions about the app, feel free to reach out via GitHub Issues.
+License
+This software is released under the GNU General Public License (GPL) version 3.0. You are free to use, modify, and distribute it under the terms of this license.
 
-### 2. GTK Requirements
+You can find the full text of the GPL License here.
 
-GTK is typically pre-installed on most modern Linux distributions. If your system does not have GTK (a rare case), you can install it using the following commands based on your operating system:
-
-- **Ubuntu/Debian:**
-  ```bash
-  sudo apt-get install libgtk-3-dev
-  ```
-- **Fedora:**
-  ```bash
-  sudo dnf install gtk3-devel
-  ```
-- **Arch Linux:**
-  ```bash
-  sudo pacman -S gtk3
-  ```
-
-### 3. Installing the Application
-
-Clone the source code from GitHub:
-
-```bash
-git clone https://github.com/nguyenhhoa03/video-downloader.git
-cd video-downloader
-```
-
-Then, run the application using Python:
-
-```bash
-python3 app.py
-```
-
-## Directory Structure
-
-```
-video-downloader/
-│
-├── app.py            # Main source code of the application
-├── ui.glade          # Glade file for the user interface
-└── README.md         # Installation and usage guide
-```
-
-## How to Use
-
-1. **Open the Video Downloader application** from the terminal or via the graphical interface.  
-2. **Enter the video URL** you want to download.  
-3. **Select video quality** (if available).  
-4. **Choose the save location:** Select the folder to save the downloaded video.  
-5. **Click "Download"** to start the download process.  
-
-## Notes
-
-- **Under Development:** The application is still under development, so you may encounter bugs or incomplete features.  
-- **GTK Pre-installed:** Most Linux distributions already include GTK, so you can use the app out of the box.  
-- **Cross-platform Support Coming Soon:** Support for Windows and macOS is planned for future versions.  
-- **Source Code Only:** Currently, the source code includes `app.py` and `ui.glade`.  
-
-## Contact
-
-For issues or inquiries, feel free to:
-
-- Open an issue on the [GitHub repository](https://github.com/nguyenhhoa03/video-downloader).  
-- Email: **simpleosproject@gmail.com**  
+Terms
+Usage: You are free to run this software for any purpose.
+Modification: You can modify the software and distribute your modifications, provided the same license applies to your modified versions.
+Redistribution: If you distribute the software (modified or not), you must pass along the source code and include the GPL license.
+By using or contributing to this project, you agree to the terms of the GPL license.
