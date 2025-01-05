@@ -41,7 +41,7 @@ After cloning the repository and installing dependencies, run the application:
 ```bash
 cd video-downloader
 python3 app.py
-# If it not working, try python app.py
+# If it not working, try "python app.py"
 ```
 
 ## Usage
