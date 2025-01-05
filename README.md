@@ -32,6 +32,7 @@ Clone the repository using the following command:
 ```bash
 git clone https://github.com/nguyenhhoa03/video-downloader.git
 ```
+Or download source code from Github
 
 ### 4. Run the Application
 
@@ -39,7 +40,8 @@ After cloning the repository and installing dependencies, run the application:
 
 ```bash
 cd video-downloader
-python app.py
+python3 app.py
+# If it not working, try python app.py
 ```
 
 ## Usage
